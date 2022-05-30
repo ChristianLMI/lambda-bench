@@ -8,78 +8,162 @@
 # Timeout: 10 min per iteration
 # Threads: 1 thread, will synchronize iterations
 # Benchmark mode: Throughput, ops/time
-# Benchmark: com.go2.bench.LambdaBench.noLambda
+# Benchmark: com.go2.bench.LambdaBench.noLambda_directInvocation
 
-# Run progress: 0.00% complete, ETA 00:16:40
+# Run progress: 0.00% complete, ETA 00:50:00
 # Fork: 1 of 5
-# Warmup Iteration   1: 2234258301.741 ops/s
-# Warmup Iteration   2: 2145691999.025 ops/s
-# Warmup Iteration   3: 2126613618.868 ops/s
-# Warmup Iteration   4: 2101194063.383 ops/s
-# Warmup Iteration   5: 2083516611.242 ops/s
-Iteration   1: 2037650625.051 ops/s
-Iteration   2: 2052785332.876 ops/s
-Iteration   3: 2059720679.493 ops/s
-Iteration   4: 2029171850.356 ops/s
-Iteration   5: 2022379755.459 ops/s
+# Warmup Iteration   1: 2305511779.195 ops/s
+# Warmup Iteration   2: 2115800755.762 ops/s
+# Warmup Iteration   3: 2143470004.446 ops/s
+# Warmup Iteration   4: 2110744563.366 ops/s
+# Warmup Iteration   5: 2114510841.682 ops/s
+Iteration   1: 2108198339.987 ops/s
+Iteration   2: 2096472018.227 ops/s
+Iteration   3: 2040371849.607 ops/s
+Iteration   4: 2018688558.145 ops/s
+Iteration   5: 2012385782.757 ops/s
 
-# Run progress: 10.00% complete, ETA 00:15:02
+# Run progress: 3.33% complete, ETA 00:48:27
 # Fork: 2 of 5
-# Warmup Iteration   1: 2032595209.722 ops/s
-# Warmup Iteration   2: 2126872466.161 ops/s
-# Warmup Iteration   3: 2117257151.241 ops/s
-# Warmup Iteration   4: 2060066477.331 ops/s
-# Warmup Iteration   5: 2027634412.535 ops/s
-Iteration   1: 1989648148.138 ops/s
-Iteration   2: 1991746047.975 ops/s
-Iteration   3: 1990777498.333 ops/s
-Iteration   4: 2004802526.775 ops/s
-Iteration   5: 2012168099.833 ops/s
+# Warmup Iteration   1: 2044795443.686 ops/s
+# Warmup Iteration   2: 2114107449.636 ops/s
+# Warmup Iteration   3: 2071134266.871 ops/s
+# Warmup Iteration   4: 1961419886.586 ops/s
+# Warmup Iteration   5: 1951296185.882 ops/s
+Iteration   1: 1985148229.681 ops/s
+Iteration   2: 2027416056.884 ops/s
+Iteration   3: 2008033646.810 ops/s
+Iteration   4: 2015777795.325 ops/s
+Iteration   5: 2023014684.721 ops/s
 
-# Run progress: 20.00% complete, ETA 00:13:21
+# Run progress: 6.67% complete, ETA 00:46:46
 # Fork: 3 of 5
-# Warmup Iteration   1: 2026023870.692 ops/s
-# Warmup Iteration   2: 2028829674.318 ops/s
-# Warmup Iteration   3: 2018529954.118 ops/s
-# Warmup Iteration   4: 2030354278.168 ops/s
-# Warmup Iteration   5: 2042327916.217 ops/s
-Iteration   1: 2037144934.792 ops/s
-Iteration   2: 2044382325.456 ops/s
-Iteration   3: 2038605535.074 ops/s
-Iteration   4: 2023305847.926 ops/s
-Iteration   5: 2035785331.936 ops/s
+# Warmup Iteration   1: 2032047168.387 ops/s
+# Warmup Iteration   2: 2035153187.561 ops/s
+# Warmup Iteration   3: 2014968045.332 ops/s
+# Warmup Iteration   4: 1979222989.310 ops/s
+# Warmup Iteration   5: 1994645794.356 ops/s
+Iteration   1: 1980779755.944 ops/s
+Iteration   2: 1973344255.688 ops/s
+Iteration   3: 1979719469.992 ops/s
+Iteration   4: 1977040221.357 ops/s
+Iteration   5: 1976943774.742 ops/s
 
-# Run progress: 30.00% complete, ETA 00:11:41
+# Run progress: 10.00% complete, ETA 00:45:05
 # Fork: 4 of 5
-# Warmup Iteration   1: 1927707797.729 ops/s
-# Warmup Iteration   2: 2061981241.181 ops/s
-# Warmup Iteration   3: 2080782772.018 ops/s
-# Warmup Iteration   4: 2011787698.717 ops/s
-# Warmup Iteration   5: 2022463130.264 ops/s
-Iteration   1: 2015650475.274 ops/s
-Iteration   2: 2024267037.117 ops/s
-Iteration   3: 2013468003.370 ops/s
-Iteration   4: 2013712933.746 ops/s
-Iteration   5: 1978093290.738 ops/s
+# Warmup Iteration   1: 1986861430.184 ops/s
+# Warmup Iteration   2: 2002192559.875 ops/s
+# Warmup Iteration   3: 2084673498.972 ops/s
+# Warmup Iteration   4: 2069399506.800 ops/s
+# Warmup Iteration   5: 1932871953.873 ops/s
+Iteration   1: 1995740610.010 ops/s
+Iteration   2: 2067495818.617 ops/s
+Iteration   3: 1968625736.199 ops/s
+Iteration   4: 1963222259.738 ops/s
+Iteration   5: 1978492749.906 ops/s
 
-# Run progress: 40.00% complete, ETA 00:10:01
+# Run progress: 13.33% complete, ETA 00:43:25
 # Fork: 5 of 5
-# Warmup Iteration   1: 2015270168.342 ops/s
-# Warmup Iteration   2: 2021416699.899 ops/s
-# Warmup Iteration   3: 2017449461.049 ops/s
-# Warmup Iteration   4: 1989432433.698 ops/s
-# Warmup Iteration   5: 1981603844.838 ops/s
-Iteration   1: 2039006263.585 ops/s
-Iteration   2: 2030746914.338 ops/s
-Iteration   3: 2029683027.598 ops/s
-Iteration   4: 2027729332.632 ops/s
-Iteration   5: 2031863366.308 ops/s
+# Warmup Iteration   1: 2015659810.088 ops/s
+# Warmup Iteration   2: 2027217840.985 ops/s
+# Warmup Iteration   3: 2019059532.839 ops/s
+# Warmup Iteration   4: 2005746708.350 ops/s
+# Warmup Iteration   5: 1992932575.851 ops/s
+Iteration   1: 1999552271.470 ops/s
+Iteration   2: 2028106845.695 ops/s
+Iteration   3: 2067200759.308 ops/s
+Iteration   4: 2038662298.672 ops/s
+Iteration   5: 1973518903.907 ops/s
 
 
-Result "com.go2.bench.LambdaBench.noLambda":
-  2022971807.367 ±(99.9%) 15167796.890 ops/s [Average]
-  (min, avg, max) = (1978093290.738, 2022971807.367, 2059720679.493), stdev = 20248574.894
-  CI (99.9%): [2007804010.477, 2038139604.258] (assumes normal distribution)
+Result "com.go2.bench.LambdaBench.noLambda_directInvocation":
+  2012158107.736 ±(99.9%) 30076759.548 ops/s [Average]
+  (min, avg, max) = (1963222259.738, 2012158107.736, 2108198339.987), stdev = 40151613.494
+  CI (99.9%): [1982081348.187, 2042234867.284] (assumes normal distribution)
+
+
+# JMH version: 1.33
+# VM version: JDK 13.0.1, OpenJDK 64-Bit Server VM, 13.0.1+9
+# VM invoker: /home/christianf1/dev/java/jdk-13.0.1/bin/java
+# VM options: -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.go2.bench.LambdaBench.noLambda_indirectInvocation
+
+# Run progress: 16.67% complete, ETA 00:41:45
+# Fork: 1 of 5
+# Warmup Iteration   1: 2018946803.399 ops/s
+# Warmup Iteration   2: 1997398079.100 ops/s
+# Warmup Iteration   3: 1984378201.627 ops/s
+# Warmup Iteration   4: 1986316307.737 ops/s
+# Warmup Iteration   5: 2061632916.487 ops/s
+Iteration   1: 1962498391.135 ops/s
+Iteration   2: 1962452152.140 ops/s
+Iteration   3: 1955420653.624 ops/s
+Iteration   4: 1968705646.807 ops/s
+Iteration   5: 2006601439.649 ops/s
+
+# Run progress: 20.00% complete, ETA 00:40:05
+# Fork: 2 of 5
+# Warmup Iteration   1: 1975353600.967 ops/s
+# Warmup Iteration   2: 1973477881.610 ops/s
+# Warmup Iteration   3: 1967221499.379 ops/s
+# Warmup Iteration   4: 2008922474.854 ops/s
+# Warmup Iteration   5: 1972628533.474 ops/s
+Iteration   1: 2038991964.409 ops/s
+Iteration   2: 1988155043.594 ops/s
+Iteration   3: 1964232143.393 ops/s
+Iteration   4: 1971519814.087 ops/s
+Iteration   5: 1964889622.395 ops/s
+
+# Run progress: 23.33% complete, ETA 00:38:24
+# Fork: 3 of 5
+# Warmup Iteration   1: 1991878584.984 ops/s
+# Warmup Iteration   2: 2032486222.937 ops/s
+# Warmup Iteration   3: 1984977184.064 ops/s
+# Warmup Iteration   4: 1974948114.876 ops/s
+# Warmup Iteration   5: 1977028894.658 ops/s
+Iteration   1: 2116418598.991 ops/s
+Iteration   2: 2096536821.041 ops/s
+Iteration   3: 2089434586.938 ops/s
+Iteration   4: 2091511100.396 ops/s
+Iteration   5: 2077247579.847 ops/s
+
+# Run progress: 26.67% complete, ETA 00:36:44
+# Fork: 4 of 5
+# Warmup Iteration   1: 2000662296.752 ops/s
+# Warmup Iteration   2: 2016766662.299 ops/s
+# Warmup Iteration   3: 2006460373.671 ops/s
+# Warmup Iteration   4: 2023857551.561 ops/s
+# Warmup Iteration   5: 2002097956.728 ops/s
+Iteration   1: 2017998208.996 ops/s
+Iteration   2: 2026485844.550 ops/s
+Iteration   3: 2021441041.163 ops/s
+Iteration   4: 1997288899.093 ops/s
+Iteration   5: 2019027053.523 ops/s
+
+# Run progress: 30.00% complete, ETA 00:35:04
+# Fork: 5 of 5
+# Warmup Iteration   1: 2096088816.305 ops/s
+# Warmup Iteration   2: 2074692310.801 ops/s
+# Warmup Iteration   3: 2080629299.150 ops/s
+# Warmup Iteration   4: 2000544897.647 ops/s
+# Warmup Iteration   5: 2015014532.683 ops/s
+Iteration   1: 2002911574.373 ops/s
+Iteration   2: 2022466414.061 ops/s
+Iteration   3: 2022430022.963 ops/s
+Iteration   4: 2019118438.841 ops/s
+Iteration   5: 2022162231.381 ops/s
+
+
+Result "com.go2.bench.LambdaBench.noLambda_indirectInvocation":
+  2017037811.496 ±(99.9%) 35032774.843 ops/s [Average]
+  (min, avg, max) = (1955420653.624, 2017037811.496, 2116418598.991), stdev = 46767752.120
+  CI (99.9%): [1982005036.652, 2052070586.339] (assumes normal distribution)
 
 
 # JMH version: 1.33
@@ -94,79 +178,331 @@ Result "com.go2.bench.LambdaBench.noLambda":
 # Benchmark mode: Throughput, ops/time
 # Benchmark: com.go2.bench.LambdaBench.withLambdaInvocation
 
-# Run progress: 50.00% complete, ETA 00:08:21
+# Run progress: 33.33% complete, ETA 00:33:24
 # Fork: 1 of 5
-# Warmup Iteration   1: 2032154365.594 ops/s
-# Warmup Iteration   2: 2102443099.557 ops/s
-# Warmup Iteration   3: 2096262205.990 ops/s
-# Warmup Iteration   4: 2095688553.624 ops/s
-# Warmup Iteration   5: 2056123696.089 ops/s
-Iteration   1: 1961286986.406 ops/s
-Iteration   2: 1927695530.475 ops/s
-Iteration   3: 1919133648.966 ops/s
-Iteration   4: 1959945620.005 ops/s
-Iteration   5: 2039233980.050 ops/s
+# Warmup Iteration   1: 1958061812.437 ops/s
+# Warmup Iteration   2: 1978493433.461 ops/s
+# Warmup Iteration   3: 1981215363.285 ops/s
+# Warmup Iteration   4: 2113273506.154 ops/s
+# Warmup Iteration   5: 2101682878.525 ops/s
+Iteration   1: 2105152531.475 ops/s
+Iteration   2: 2096898737.181 ops/s
+Iteration   3: 2088259039.713 ops/s
+Iteration   4: 2091372521.045 ops/s
+Iteration   5: 1979013350.515 ops/s
 
-# Run progress: 60.00% complete, ETA 00:06:40
+# Run progress: 36.67% complete, ETA 00:31:43
 # Fork: 2 of 5
-# Warmup Iteration   1: 1967372671.039 ops/s
-# Warmup Iteration   2: 1971108252.358 ops/s
-# Warmup Iteration   3: 1963917626.303 ops/s
-# Warmup Iteration   4: 1972573034.898 ops/s
-# Warmup Iteration   5: 2012897762.237 ops/s
-Iteration   1: 2002719616.567 ops/s
-Iteration   2: 2008387763.318 ops/s
-Iteration   3: 2005976052.193 ops/s
-Iteration   4: 2023939715.726 ops/s
-Iteration   5: 2007855796.804 ops/s
+# Warmup Iteration   1: 1955697813.788 ops/s
+# Warmup Iteration   2: 1986781200.557 ops/s
+# Warmup Iteration   3: 2005942776.092 ops/s
+# Warmup Iteration   4: 1973476542.791 ops/s
+# Warmup Iteration   5: 1967168343.840 ops/s
+Iteration   1: 1980108923.719 ops/s
+Iteration   2: 1974519981.993 ops/s
+Iteration   3: 1956776360.939 ops/s
+Iteration   4: 1977194143.025 ops/s
+Iteration   5: 2018322917.245 ops/s
 
-# Run progress: 70.00% complete, ETA 00:05:00
+# Run progress: 40.00% complete, ETA 00:30:03
 # Fork: 3 of 5
-# Warmup Iteration   1: 1995212658.202 ops/s
-# Warmup Iteration   2: 2007622829.241 ops/s
-# Warmup Iteration   3: 1996692556.063 ops/s
-# Warmup Iteration   4: 2005297647.317 ops/s
-# Warmup Iteration   5: 2008166591.823 ops/s
-Iteration   1: 2008694886.050 ops/s
-Iteration   2: 2001742618.374 ops/s
-Iteration   3: 1991356203.874 ops/s
-Iteration   4: 1997926138.203 ops/s
-Iteration   5: 1996526884.146 ops/s
+# Warmup Iteration   1: 2007454848.638 ops/s
+# Warmup Iteration   2: 2081465503.713 ops/s
+# Warmup Iteration   3: 1928164400.531 ops/s
+# Warmup Iteration   4: 2037694611.515 ops/s
+# Warmup Iteration   5: 2063727870.385 ops/s
+Iteration   1: 2072414633.705 ops/s
+Iteration   2: 2065386513.440 ops/s
+Iteration   3: 1963803794.861 ops/s
+Iteration   4: 1964385856.939 ops/s
+Iteration   5: 1962535115.853 ops/s
 
-# Run progress: 80.00% complete, ETA 00:03:20
+# Run progress: 43.33% complete, ETA 00:28:23
 # Fork: 4 of 5
-# Warmup Iteration   1: 2077929138.181 ops/s
-# Warmup Iteration   2: 1940003113.405 ops/s
-# Warmup Iteration   3: 1979225169.835 ops/s
-# Warmup Iteration   4: 2049910422.094 ops/s
-# Warmup Iteration   5: 1939055620.814 ops/s
-Iteration   1: 1991479850.088 ops/s
-Iteration   2: 1968178113.123 ops/s
-Iteration   3: 1917922236.467 ops/s
-Iteration   4: 1924740451.576 ops/s
-Iteration   5: 1945816339.122 ops/s
+# Warmup Iteration   1: 1953060060.012 ops/s
+# Warmup Iteration   2: 1957405569.549 ops/s
+# Warmup Iteration   3: 1956259170.314 ops/s
+# Warmup Iteration   4: 1959024642.071 ops/s
+# Warmup Iteration   5: 1963075325.385 ops/s
+Iteration   1: 1969319246.224 ops/s
+Iteration   2: 1958702968.692 ops/s
+Iteration   3: 1951775532.186 ops/s
+Iteration   4: 1949018819.967 ops/s
+Iteration   5: 1953195818.070 ops/s
 
-# Run progress: 90.00% complete, ETA 00:01:40
+# Run progress: 46.67% complete, ETA 00:26:43
 # Fork: 5 of 5
-# Warmup Iteration   1: 1994324790.747 ops/s
-# Warmup Iteration   2: 1949433794.807 ops/s
-# Warmup Iteration   3: 1936222071.474 ops/s
-# Warmup Iteration   4: 1967445687.043 ops/s
-# Warmup Iteration   5: 1995545019.219 ops/s
-Iteration   1: 1982225981.985 ops/s
-Iteration   2: 1959752826.071 ops/s
-Iteration   3: 1909425839.102 ops/s
-Iteration   4: 1950517251.404 ops/s
-Iteration   5: 1947199865.786 ops/s
+# Warmup Iteration   1: 1949755179.473 ops/s
+# Warmup Iteration   2: 2006661982.047 ops/s
+# Warmup Iteration   3: 2000143816.645 ops/s
+# Warmup Iteration   4: 2040937401.200 ops/s
+# Warmup Iteration   5: 1988581511.386 ops/s
+Iteration   1: 1983473077.566 ops/s
+Iteration   2: 1986848427.709 ops/s
+Iteration   3: 1994439335.906 ops/s
+Iteration   4: 2000900010.935 ops/s
+Iteration   5: 1994926958.777 ops/s
 
 
 Result "com.go2.bench.LambdaBench.withLambdaInvocation":
-  1973987207.835 ±(99.9%) 27441577.680 ops/s [Average]
-  (min, avg, max) = (1909425839.102, 1973987207.835, 2039233980.050), stdev = 36633721.093
-  CI (99.9%): [1946545630.155, 2001428785.516] (assumes normal distribution)
+  2001549784.707 ±(99.9%) 38833563.451 ops/s [Average]
+  (min, avg, max) = (1949018819.967, 2001549784.707, 2105152531.475), stdev = 51841696.169
+  CI (99.9%): [1962716221.256, 2040383348.158] (assumes normal distribution)
 
 
-# Run complete. Total time: 00:16:42
+# JMH version: 1.33
+# VM version: JDK 13.0.1, OpenJDK 64-Bit Server VM, 13.0.1+9
+# VM invoker: /home/christianf1/dev/java/jdk-13.0.1/bin/java
+# VM options: -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.go2.bench.LambdaBench2.noLambda_directInvocation
+
+# Run progress: 50.00% complete, ETA 00:25:03
+# Fork: 1 of 5
+# Warmup Iteration   1: 2656186.518 ops/s
+# Warmup Iteration   2: 2625987.445 ops/s
+# Warmup Iteration   3: 2623881.620 ops/s
+# Warmup Iteration   4: 2528343.170 ops/s
+# Warmup Iteration   5: 2675387.555 ops/s
+Iteration   1: 2624927.357 ops/s
+Iteration   2: 2592139.389 ops/s
+Iteration   3: 2612475.251 ops/s
+Iteration   4: 2611442.811 ops/s
+Iteration   5: 2630691.279 ops/s
+
+# Run progress: 53.33% complete, ETA 00:23:22
+# Fork: 2 of 5
+# Warmup Iteration   1: 2613466.022 ops/s
+# Warmup Iteration   2: 2595603.426 ops/s
+# Warmup Iteration   3: 2582120.579 ops/s
+# Warmup Iteration   4: 2575351.584 ops/s
+# Warmup Iteration   5: 2571224.872 ops/s
+Iteration   1: 2570562.541 ops/s
+Iteration   2: 2546792.869 ops/s
+Iteration   3: 2570975.678 ops/s
+Iteration   4: 2579576.301 ops/s
+Iteration   5: 2595806.388 ops/s
+
+# Run progress: 56.67% complete, ETA 00:21:42
+# Fork: 3 of 5
+# Warmup Iteration   1: 2619586.852 ops/s
+# Warmup Iteration   2: 2606409.865 ops/s
+# Warmup Iteration   3: 2610649.164 ops/s
+# Warmup Iteration   4: 2613728.416 ops/s
+# Warmup Iteration   5: 2631810.293 ops/s
+Iteration   1: 2607336.211 ops/s
+Iteration   2: 2587984.045 ops/s
+Iteration   3: 2579752.574 ops/s
+Iteration   4: 2618266.238 ops/s
+Iteration   5: 2706340.642 ops/s
+
+# Run progress: 60.00% complete, ETA 00:20:02
+# Fork: 4 of 5
+# Warmup Iteration   1: 2653153.808 ops/s
+# Warmup Iteration   2: 2580288.075 ops/s
+# Warmup Iteration   3: 2607669.272 ops/s
+# Warmup Iteration   4: 2666408.400 ops/s
+# Warmup Iteration   5: 2682184.170 ops/s
+Iteration   1: 2624112.122 ops/s
+Iteration   2: 2456293.571 ops/s
+Iteration   3: 2552005.560 ops/s
+Iteration   4: 2541809.123 ops/s
+Iteration   5: 2593284.872 ops/s
+
+# Run progress: 63.33% complete, ETA 00:18:22
+# Fork: 5 of 5
+# Warmup Iteration   1: 2641707.680 ops/s
+# Warmup Iteration   2: 2618117.325 ops/s
+# Warmup Iteration   3: 2600224.016 ops/s
+# Warmup Iteration   4: 2598152.435 ops/s
+# Warmup Iteration   5: 2594685.319 ops/s
+Iteration   1: 2577761.557 ops/s
+Iteration   2: 2564583.682 ops/s
+Iteration   3: 2558349.714 ops/s
+Iteration   4: 2573998.984 ops/s
+Iteration   5: 2580519.487 ops/s
+
+
+Result "com.go2.bench.LambdaBench2.noLambda_directInvocation":
+  2586311.530 ±(99.9%) 32779.903 ops/s [Average]
+  (min, avg, max) = (2456293.571, 2586311.530, 2706340.642), stdev = 43760.233
+  CI (99.9%): [2553531.627, 2619091.433] (assumes normal distribution)
+
+
+# JMH version: 1.33
+# VM version: JDK 13.0.1, OpenJDK 64-Bit Server VM, 13.0.1+9
+# VM invoker: /home/christianf1/dev/java/jdk-13.0.1/bin/java
+# VM options: -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.go2.bench.LambdaBench2.noLambda_indirectInvocation
+
+# Run progress: 66.67% complete, ETA 00:16:42
+# Fork: 1 of 5
+# Warmup Iteration   1: 2579848.347 ops/s
+# Warmup Iteration   2: 2570639.868 ops/s
+# Warmup Iteration   3: 2569238.398 ops/s
+# Warmup Iteration   4: 2622166.831 ops/s
+# Warmup Iteration   5: 2619895.473 ops/s
+Iteration   1: 2612762.585 ops/s
+Iteration   2: 2600290.116 ops/s
+Iteration   3: 2600855.868 ops/s
+Iteration   4: 2596399.139 ops/s
+Iteration   5: 2608011.827 ops/s
+
+# Run progress: 70.00% complete, ETA 00:15:01
+# Fork: 2 of 5
+# Warmup Iteration   1: 2543305.650 ops/s
+# Warmup Iteration   2: 2605079.887 ops/s
+# Warmup Iteration   3: 2598443.001 ops/s
+# Warmup Iteration   4: 2600151.859 ops/s
+# Warmup Iteration   5: 2592929.917 ops/s
+Iteration   1: 2597314.400 ops/s
+Iteration   2: 2602835.061 ops/s
+Iteration   3: 2589877.727 ops/s
+Iteration   4: 2608431.018 ops/s
+Iteration   5: 2616327.177 ops/s
+
+# Run progress: 73.33% complete, ETA 00:13:21
+# Fork: 3 of 5
+# Warmup Iteration   1: 2568244.895 ops/s
+# Warmup Iteration   2: 2609963.674 ops/s
+# Warmup Iteration   3: 2607617.084 ops/s
+# Warmup Iteration   4: 2584500.021 ops/s
+# Warmup Iteration   5: 2588327.187 ops/s
+Iteration   1: 2590259.224 ops/s
+Iteration   2: 2584984.271 ops/s
+Iteration   3: 2627333.949 ops/s
+Iteration   4: 2703270.985 ops/s
+Iteration   5: 2584013.665 ops/s
+
+# Run progress: 76.67% complete, ETA 00:11:41
+# Fork: 4 of 5
+# Warmup Iteration   1: 2604173.522 ops/s
+# Warmup Iteration   2: 2688299.308 ops/s
+# Warmup Iteration   3: 2680438.248 ops/s
+# Warmup Iteration   4: 2552800.161 ops/s
+# Warmup Iteration   5: 2570234.716 ops/s
+Iteration   1: 2567266.401 ops/s
+Iteration   2: 2561729.196 ops/s
+Iteration   3: 2581578.143 ops/s
+Iteration   4: 2563020.610 ops/s
+Iteration   5: 2561486.858 ops/s
+
+# Run progress: 80.00% complete, ETA 00:10:01
+# Fork: 5 of 5
+# Warmup Iteration   1: 2698097.552 ops/s
+# Warmup Iteration   2: 2676830.535 ops/s
+# Warmup Iteration   3: 2674220.777 ops/s
+# Warmup Iteration   4: 2678049.373 ops/s
+# Warmup Iteration   5: 2548079.738 ops/s
+Iteration   1: 2561380.252 ops/s
+Iteration   2: 2573281.982 ops/s
+Iteration   3: 2583007.422 ops/s
+Iteration   4: 2590593.178 ops/s
+Iteration   5: 2586532.948 ops/s
+
+
+Result "com.go2.bench.LambdaBench2.noLambda_indirectInvocation":
+  2594113.760 ±(99.9%) 21790.029 ops/s [Average]
+  (min, avg, max) = (2561380.252, 2594113.760, 2703270.985), stdev = 29089.065
+  CI (99.9%): [2572323.732, 2615903.789] (assumes normal distribution)
+
+
+# JMH version: 1.33
+# VM version: JDK 13.0.1, OpenJDK 64-Bit Server VM, 13.0.1+9
+# VM invoker: /home/christianf1/dev/java/jdk-13.0.1/bin/java
+# VM options: -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.go2.bench.LambdaBench2.withLambdaInvocation
+
+# Run progress: 83.33% complete, ETA 00:08:21
+# Fork: 1 of 5
+# Warmup Iteration   1: 2587881.638 ops/s
+# Warmup Iteration   2: 2591960.489 ops/s
+# Warmup Iteration   3: 2570001.236 ops/s
+# Warmup Iteration   4: 2550869.587 ops/s
+# Warmup Iteration   5: 2576863.133 ops/s
+Iteration   1: 2550620.767 ops/s
+Iteration   2: 2555056.672 ops/s
+Iteration   3: 2560223.291 ops/s
+Iteration   4: 2591412.188 ops/s
+Iteration   5: 2595892.805 ops/s
+
+# Run progress: 86.67% complete, ETA 00:06:40
+# Fork: 2 of 5
+# Warmup Iteration   1: 2584438.447 ops/s
+# Warmup Iteration   2: 2596165.242 ops/s
+# Warmup Iteration   3: 2605374.384 ops/s
+# Warmup Iteration   4: 2609470.785 ops/s
+# Warmup Iteration   5: 2602797.139 ops/s
+Iteration   1: 2612886.203 ops/s
+Iteration   2: 2604185.895 ops/s
+Iteration   3: 2718348.086 ops/s
+Iteration   4: 2681277.008 ops/s
+Iteration   5: 2687622.580 ops/s
+
+# Run progress: 90.00% complete, ETA 00:05:00
+# Fork: 3 of 5
+# Warmup Iteration   1: 2531782.577 ops/s
+# Warmup Iteration   2: 2563597.746 ops/s
+# Warmup Iteration   3: 2578767.745 ops/s
+# Warmup Iteration   4: 2586025.326 ops/s
+# Warmup Iteration   5: 2585719.095 ops/s
+Iteration   1: 2576638.332 ops/s
+Iteration   2: 2595150.467 ops/s
+Iteration   3: 2576663.746 ops/s
+Iteration   4: 2613903.488 ops/s
+Iteration   5: 2596226.251 ops/s
+
+# Run progress: 93.33% complete, ETA 00:03:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 2562008.809 ops/s
+# Warmup Iteration   2: 2572308.795 ops/s
+# Warmup Iteration   3: 2550983.463 ops/s
+# Warmup Iteration   4: 2695370.150 ops/s
+# Warmup Iteration   5: 2601389.177 ops/s
+Iteration   1: 2574761.861 ops/s
+Iteration   2: 2691584.518 ops/s
+Iteration   3: 2626727.249 ops/s
+Iteration   4: 2680029.122 ops/s
+Iteration   5: 2675993.533 ops/s
+
+# Run progress: 96.67% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 2647001.860 ops/s
+# Warmup Iteration   2: 2640730.328 ops/s
+# Warmup Iteration   3: 2516558.005 ops/s
+# Warmup Iteration   4: 2532538.358 ops/s
+# Warmup Iteration   5: 2532791.607 ops/s
+Iteration   1: 2542880.423 ops/s
+Iteration   2: 2683834.421 ops/s
+Iteration   3: 2541528.879 ops/s
+Iteration   4: 2516048.091 ops/s
+Iteration   5: 2560514.099 ops/s
+
+
+Result "com.go2.bench.LambdaBench2.withLambdaInvocation":
+  2608400.399 ±(99.9%) 42812.729 ops/s [Average]
+  (min, avg, max) = (2516048.091, 2608400.399, 2718348.086), stdev = 57153.768
+  CI (99.9%): [2565587.670, 2651213.128] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:50:06
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -174,6 +510,10 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                          Mode  Cnt           Score          Error  Units
-LambdaBench.noLambda              thrpt   25  2022971807.367 ± 15167796.890  ops/s
-LambdaBench.withLambdaInvocation  thrpt   25  1973987207.835 ± 27441577.680  ops/s
+Benchmark                                  Mode  Cnt           Score          Error  Units
+LambdaBench.noLambda_directInvocation     thrpt   25  2012158107.736 ± 30076759.548  ops/s
+LambdaBench.noLambda_indirectInvocation   thrpt   25  2017037811.496 ± 35032774.843  ops/s
+LambdaBench.withLambdaInvocation          thrpt   25  2001549784.707 ± 38833563.451  ops/s
+LambdaBench2.noLambda_directInvocation    thrpt   25     2586311.530 ±    32779.903  ops/s
+LambdaBench2.noLambda_indirectInvocation  thrpt   25     2594113.760 ±    21790.029  ops/s
+LambdaBench2.withLambdaInvocation         thrpt   25     2608400.399 ±    42812.729  ops/s

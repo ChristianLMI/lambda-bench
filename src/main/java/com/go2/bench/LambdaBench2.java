@@ -11,7 +11,7 @@ import java.util.function.Consumer;
 
 import org.openjdk.jmh.annotations.Benchmark;
 
-public class LambdaBench {
+public class LambdaBench2 {
 
     @Benchmark
     public void noLambda_directInvocation() {
@@ -40,8 +40,19 @@ public class LambdaBench {
     }
 
     private static class Worker {
-        public void doWork() {
 
+        public Worker() {
+            // pretend to do some stuff
+            for (int i = 0; i < 10; i++) {
+                Math.sqrt(Math.random());
+            }
+        }
+
+        public void doWork() {
+            // pretend to do some stuff
+            for (int i = 0; i < 10; i++) {
+                Math.sqrt(Math.random());
+            }
         }
     }
 }
